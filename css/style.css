@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -336,6 +337,10 @@ a {
 a:hover, a:active, a:focus, a:focus-within {
   color: rgb(34, 34, 34);
   text-decoration: underline;
+}
+
+p, a, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
 }
 
 /**
