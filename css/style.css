@@ -398,4 +398,16 @@ body {
   width: 1px;
 }
 
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+.header__logo {
+  width: 175px;
+}
+
 /*# sourceMappingURL=style.css.map */
