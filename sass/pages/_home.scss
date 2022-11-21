@@ -1,3 +1,27 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the home page.
+// index.html
 // -----------------------------------------------------------------------------
+.localisation{
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    padding: 0;
+    margin: 0;
+    line-height: 1em;
+    height: 50px;
+    i{
+        margin-right: 15px;
+    }
+}
+.presentation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}

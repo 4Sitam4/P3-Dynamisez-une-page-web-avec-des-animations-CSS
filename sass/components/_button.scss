@@ -1,3 +1,21 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
+.button{
+    transition: all 0.3s ease-in-out;
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 30px;
+    border: 0;
+    background: linear-gradient(#e97bdc, #ad5fdb);
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: rgba(128, 128, 128, 0.466) 3px 4px 10px 0px;
+    &:hover{
+        transition: all 0.3s ease-in-out;
+        background: linear-gradient(#ad5fdb,#e97bdc);
+        color: #fff;
+        box-shadow: rgba(128, 128, 128, 0.466) 0px 0px 10px 1px;
+    }
+}
