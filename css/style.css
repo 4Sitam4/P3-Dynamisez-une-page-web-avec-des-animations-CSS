@@ -339,14 +339,6 @@ p, a, h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
-p {
-  font-size: 20px;
-}
-
-h1 {
-  font-size: 30px;
-}
-
 /**
  * Basic typography style for copy text
  */
@@ -421,10 +413,13 @@ body {
   width: 175px;
 }
 
-.button {
+.link {
+  display: inline-block;
+}
+.link__btn {
   transition: all 0.3s ease-in-out;
   display: inline-block;
-  padding: 10px 25px;
+  padding: 15px 30px;
   border-radius: 30px;
   border: 0;
   background: linear-gradient(#e97bdc, #ad5fdb);
@@ -432,8 +427,9 @@ body {
   color: #fff;
   text-decoration: none;
   box-shadow: rgba(128, 128, 128, 0.466) 3px 4px 10px 0px;
+  cursor: pointer;
 }
-.button:hover {
+.link__btn:hover {
   transition: all 0.3s ease-in-out;
   background: linear-gradient(#ad5fdb, #e97bdc);
   color: #fff;
@@ -449,7 +445,12 @@ body {
   padding: 0;
   margin: 0;
   line-height: 1em;
-  height: 50px;
+  height: 40px;
+}
+.localisation__texte {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
 }
 .localisation i {
   margin-right: 15px;
@@ -460,9 +461,26 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  text-align: center;
   padding: 0;
   margin: 0;
-  text-align: center;
+  margin-bottom: 5em;
+}
+.presentation__title {
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+  margin: 0;
+  padding: 0 2.8em;
+  margin-top: 2em;
+}
+.presentation__paragraphe {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000;
+  margin: 0;
+  padding: 0 20px;
+  margin: 10px 0 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
