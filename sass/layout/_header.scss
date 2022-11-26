@@ -2,15 +2,25 @@
 // This file contains all styles related to the header of the site/application.
 // -----------------------------------------------------------------------------
 .header{
-    z-index: 1;
+    background-color: white;
     display: flex;
     justify-content: center;
-    align-items: center;
     padding-top: 20px;
     padding-bottom: 10px;
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
     margin-bottom: 3px;
-        &__logo{
-            width: 175px;
+    &__logo{
+        width: 175px;
+    }
+    &__previous{
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 23px;
+        &__icon{
+            font-size: 1.5em;
+            color: #000;
+            padding-bottom: 10px;
         }
+    }
 }
