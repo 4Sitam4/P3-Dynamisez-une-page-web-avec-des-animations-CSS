@@ -220,3 +220,34 @@
         }
     }
 }
+
+// MEDIA QUERIES
+
+// TABLETTE
+// @media (min-width:720px) and (max-width: 1024px){
+//     .presentation{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 50%;
+//     }
+//     .fonctionnement{
+//         display: flex;
+//         justify-content: center;
+//         align-items: center;
+//         width: 50%;
+//         &__title{
+//             display: flex;
+//             justify-content: center;
+//             align-items: center;
+//             width: 50%;
+//         } 
+//     }
+// }
+
+// // PC
+// @media (min-width:1025px){
+//     selector{
+
+//     }
+// }
