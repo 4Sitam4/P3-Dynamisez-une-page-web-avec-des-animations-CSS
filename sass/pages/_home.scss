@@ -224,30 +224,155 @@
 // MEDIA QUERIES
 
 // TABLETTE
-// @media (min-width:720px) and (max-width: 1024px){
-//     .presentation{
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         width: 50%;
-//     }
-//     .fonctionnement{
-//         display: flex;
-//         justify-content: center;
-//         align-items: center;
-//         width: 50%;
-//         &__title{
-//             display: flex;
-//             justify-content: center;
-//             align-items: center;
-//             width: 50%;
-//         } 
-//     }
-// }
+@media (min-width:720px) and (max-width: 1024px){
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .localisation{
+        position: absolute;
+        width: 100%;
+    }
+    .presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        margin-top: 75px;
+        &__list{
+            &--item{
+                    &--texte{
+                        padding-right: 10px;
+                    }
+                }
+            }
+    }
+    .restaurants{
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        &__title{
+            font-size: 32px;
+        }
+        &__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .restaurantCard{
+        padding: 0;
+        margin: 1%;
+        width: 45%;
+        border-radius: 25px;
+        box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease-in-out;
+    }
+}
 
-// // PC
-// @media (min-width:1025px){
-//     selector{
-
-//     }
-// }
+// PC
+@media (min-width:1025px){
+    .home{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .localisation{
+        position: absolute;
+        width: 100%;
+    }
+    .presentation{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        &__title{
+            font-size: 38px;
+        }
+        &__paragraphe{
+            font-size: 24px;
+        }
+        &__button{
+            &--btn{
+                font-size: 24px;
+            }
+        }
+    }
+    .fonctionnement{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+        margin-top: 75px;
+        &__title{
+            font-size: 28px;
+            align-self: center;
+            justify-self: center;
+        }
+        &__list{
+            &--item{
+                    &--nbr{
+                        font-size: 24px;
+                        width: 40px;
+                        height: 40px;
+                    }
+                    &--texte{
+                        font-size: 24px;
+                        padding: 20px 40px ;
+                    }
+                    & i{
+                        font-size: 24px;
+                    }
+                }
+            }
+    }
+    .restaurants{
+        margin-top: 40px;
+        display: inline-flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        &__title{
+            font-size: 32px;
+        }
+        &__container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+    }
+    .restaurantCard{
+        padding: 0;
+        margin: 1%;
+        width: 45%;
+        border-radius: 25px;
+        box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.15);
+        transition: all 0.3s ease-in-out;
+    }
+}
