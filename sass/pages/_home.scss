@@ -187,40 +187,6 @@
         }
     }
 }
-.footer{
-    background-color:#353535;
-    &Div{
-        display: flex;
-        flex-direction: column;
-        padding: 20px 1em;
-        margin: 0;
-        &__logoSvg{
-            width: 110px;
-            margin-bottom: 20px;
-            & path{
-                fill: #fff;
-            }
-        }
-        &__link{
-            font-size: 18px;
-            font-weight: 400;
-            color: #fff;
-            margin: 0;
-            padding: 0;
-            margin-bottom: 5px;
-            &--icon{
-                width: 22px;
-                display: flex;
-                justify-content: left;
-                align-items: left;
-                font-size: 15px;
-                margin-right:0;
-                padding: 0;
-            }
-        }
-    }
-}
-
 // MEDIA QUERIES
 
 // TABLETTE

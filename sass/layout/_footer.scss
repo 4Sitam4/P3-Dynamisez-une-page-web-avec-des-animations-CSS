@@ -1,3 +1,80 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the footer of the site/application.
 // -----------------------------------------------------------------------------
+.footer{
+    background-color:#353535;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 1em;
+    margin: 0;
+    &__logoSvg{
+        width: 110px;
+        margin-bottom: 20px;
+        & path{
+        fill: #fff;
+        }
+    }
+    &__link{
+        font-size: 18px;
+        font-weight: 400;
+        color: #fff;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5px;
+        &--icon{
+        width: 22px;
+        display: flex;
+        justify-content: left;
+        align-items: left;
+        font-size: 15px;
+        margin-right:0;
+        padding: 0;
+        }
+    }
+}
+// -----------------------------------------------------------------------------
+// MEDIA QUERIES 
+
+// -----------------------------------------------------------------------------
+// TABLETTE
+@media (min-width:720px) and (max-width: 1024px){
+    .footer{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        &__logoSvg{
+            width: 160px;
+            margin-bottom: 20px;
+    }
+}
+}
+// -----------------------------------------------------------------------------
+// PC
+@media (min-width:1025px){
+    .footer{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        &__logoSvg{
+            width: 250px;
+            margin-bottom: 20px;
+        }
+        &__link{
+            font-size: 20px;
+            font-weight: 400;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 5px;
+            &--icon{
+                width: 24px;
+                display: flex;
+                justify-content: left;
+                align-items: left;
+                font-size: 20px;
+                margin-right:0;
+                padding: 0;
+                }
+        }
+    }
+}
