@@ -161,10 +161,10 @@
             cursor: pointer;
             padding: 0;
             margin: 0;
-            & #hide{
+            & .hide{
                 font-size: 30px;
             }
-            & #show{
+            & .show{
                 visibility: hidden;
                 font-size: 30px;
                 background: -webkit-linear-gradient(#8e46b8,#e97bdc);
@@ -173,13 +173,13 @@
                 opacity: 0;
                 transition: all 0.3s, opacity 0.3s;
             }
-            &:hover #hide{
+            &:hover .hide{
                 visibility: hidden;
                 scale: 1.5;
                 opacity: 0;
                 transition: all 0.3s, opacity 0.3s, scale 0.3s;
             }
-            &:hover #show{
+            &:hover .show{
                 visibility: visible;
                 opacity: 1;
                 transition: all 0.5s, opacity 0.3s;
