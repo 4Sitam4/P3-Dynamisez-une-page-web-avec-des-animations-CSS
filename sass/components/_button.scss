@@ -42,7 +42,7 @@
         }
         &:hover .hide{
             visibility: hidden;
-            scale: 1.5;
+            transform:scale(1.5);
             opacity: 0;
             transition: all 0.3s, opacity 0.3s, scale 0.3s;
         }
