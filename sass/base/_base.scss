@@ -5,8 +5,8 @@
 /**
  * Set up a decent box model on the root element
  */
-*{
-  margin:0;
+* {
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -33,6 +33,13 @@ a {
 // h1{
 //   font-family: 'Shrikhand', cursive;
 // }
-p,a,h1,h2,h3,h4,h5,h6{
-  font-family: 'Roboto', sans-serif;
+p,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }

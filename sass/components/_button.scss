@@ -1,55 +1,55 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
-.link{
+.link {
+  display: inline-block;
+  &__btn {
+    transition: all 0.3s ease-in-out;
     display: inline-block;
-    &__btn{
-        transition: all 0.3s ease-in-out;
-        display: inline-block;
-        padding: 15px 30px;
-        border-radius: 30px;
-        border: 0;
-        background: linear-gradient(#e97bdc, #ad5fdb);
-        text-decoration: none;
-        color: #fff;
-        text-decoration: none;
-        box-shadow: rgba(128, 128, 128, 0.466) 3px 4px 10px 0px;
-        cursor: pointer;
-        &:hover{
-            transition: all 0.3s ease-in-out;
-            background: linear-gradient(#ad5fdb,#e97bdc);
-            color: #fff;
-            box-shadow: rgba(128, 128, 128, 0.466) 0px 0px 10px 1px;
-        }
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: 0;
+    background: linear-gradient(#e97bdc, #ad5fdb);
+    text-decoration: none;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: rgba(128, 128, 128, 0.466) 3px 4px 10px 0px;
+    cursor: pointer;
+    &:hover {
+      transition: all 0.3s ease-in-out;
+      background: linear-gradient(#ff86e0, #dc6eff);
+      color: #fff;
+      box-shadow: rgba(128, 128, 128, 0.466) 0px 0px 10px 1px;
     }
+  }
 }
-.restaurantCard__description{
-    &--icon{
-        cursor: pointer;
-        padding: 0;
-        margin: 0;
-        & .hide{
-            font-size: 30px;
-        }
-        & .show{
-            visibility: hidden;
-            font-size: 30px;
-            background: -webkit-linear-gradient(#8e46b8,#e97bdc);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            opacity: 0;
-            transition: all 0.3s, opacity 0.3s;
-        }
-        &:hover .hide{
-            visibility: hidden;
-            transform:scale(1.5);
-            opacity: 0;
-            transition: all 0.3s, opacity 0.3s, scale 0.3s;
-        }
-        &:hover .show{
-            visibility: visible;
-            opacity: 1;
-            transition: all 0.5s, opacity 0.3s;
-        }
+.restaurantCard__description {
+  &--icon {
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    & .hide {
+      font-size: 30px;
     }
+    & .show {
+      visibility: hidden;
+      font-size: 30px;
+      background: -webkit-linear-gradient(#8e46b8, #e97bdc);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      opacity: 0;
+      transition: all 0.3s, opacity 0.3s;
+    }
+    &:hover .hide {
+      visibility: hidden;
+      transform: scale(1.5);
+      opacity: 0;
+      transition: all 0.3s, opacity 0.3s, scale 0.3s;
+    }
+    &:hover .show {
+      visibility: visible;
+      opacity: 1;
+      transition: all 0.5s, opacity 0.3s;
+    }
+  }
 }
